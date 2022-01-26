@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.myContainer{
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.map{
+    background: url(https://static.wikia.nocookie.net/dota2_gamepedia/images/0/08/Minimap_6.83_Simple.png/revision/latest/scale-to-width-down/250?cb=20161219113335);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    width: 820px;
+    height: 820px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column-reverse;
+}
+.myAnimation{
+    width: 50px;
+    height: 50px;
+    background: blue;
+    background-position: 80%;
+    position: absolute;
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+.button, .buttonTwo, .buttonThree{
+    width: 120px;
+    height: 30px;
+    border: 1px solid black;
+    background: red;
+    margin: 20px 20px;
+    border-radius: 20px;
+}
